@@ -1,7 +1,3 @@
-Aqui está uma versão melhorada do seu **README**. Eu mantive os **outputs das queries**, mas removi o código SQL, pois ele já está nos arquivos `.sql`. Assim, o README foca na análise e nos insights, deixando as queries organizadas dentro da pasta de consultas. 
-
----
-
 # **brazilian-ecommerce-analysis**
 Este projeto analisa dados de um e-commerce brasileiro utilizando **SQL** para extração e manipulação de dados e **Power BI** para visualização e geração de insights.  
 
