@@ -1,11 +1,11 @@
-# **brazilian-ecommerce-analysis**
-Este projeto analisa dados de um e-commerce brasileiro utilizando **SQL** para extração e manipulação de dados e **Power BI** para visualização e geração de insights.  
+# **Brazilian E-commerce Analysis**  
+Este projeto analisa dados de um **e-commerce brasileiro** utilizando **SQL** para extração e manipulação de dados e **Power BI** para visualização e geração de insights.  
 
 A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém informações sobre:
-- 📦 Pedidos e Entregas  
-- ⭐ Avaliações dos Clientes  
-- 🛒 Produtos e Categorias  
-- 📊 Vendedores e Pagamentos  
+- 📦 **Pedidos e Entregas**  
+- ⭐ **Avaliações dos Clientes**  
+- 🛒 **Produtos e Categorias**  
+- 📊 **Vendedores e Pagamentos**  
 
 📌 **Objetivo:** Explorar esses dados para identificar padrões, tendências e insights relevantes para o negócio.
 
@@ -14,7 +14,7 @@ A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém 
 ## **📦 Pedidos e Entregas**
 
 ### 🕒 **Qual o tempo médio entre a compra e a entrega dos pedidos?**
-> **🏷️ Resultado:** O tempo médio de entrega é **12,09 dias**.  
+> **🏷️ Resultado:** **12,09 dias**.  
 
 📌 A entrega mais demorada pode impactar a experiência do cliente e as avaliações.
 
@@ -35,6 +35,11 @@ A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém 
 | MG     | Belo Horizonte       | 2.773           |
 | DF     | Brasília             | 2.131           |
 | PR     | Curitiba             | 1.521           |
+| SP     | Campinas             | 1.444           |
+| RS     | Porto Alegre         | 1.379           |
+| BA     | Salvador             | 1.245           |
+| SP     | Guarulhos            | 1.189           |
+| SP     | São Bernardo do Campo| 938             |
 
 📌 O **Sudeste lidera as vendas**, com São Paulo sendo a cidade com maior volume de pedidos.
 
@@ -72,10 +77,20 @@ A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém 
 | Palavra  | Ocorrências |
 |----------|------------|
 | produto  | 12.979     |
+| do       | 8.116      |
+| não      | 6.939      |
+| antes    | 4.840      |
 | entrega  | 4.365      |
 | chegou   | 4.319      |
 | prazo    | 4.048      |
-| recomendo| 1.894      |
+| Recebi   | 3.984      |
+| que      | 3.920      |
+| no       | 3.137      |
+| foi      | 2.980      |
+| entregue | 2.721      |
+| bem      | 2.232      |
+| VEIO     | 2.216      |
+| comprei  | 2.054      |
 
 📌 **"Entrega", "prazo" e "chegou"** indicam que **tempo de entrega** impacta a experiência do cliente.
 
@@ -89,6 +104,8 @@ A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém 
 | cama_mesa_banho         | 10.953           |
 | beleza_saude            | 9.465            |
 | esporte_lazer           | 8.431            |
+| moveis_decoracao        | 8.160            |
+| informatica_acessorios  | 7.644            |
 
 📌 Produtos de **casa, beleza e esporte** são os mais vendidos.
 
@@ -100,6 +117,8 @@ A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém 
 | pcs                                          | 1.098,34         |
 | portateis_casa_forno_e_cafe                  | 624,29           |
 | eletrodomesticos_2                           | 476,12           |
+| agro_industria_e_comercio                    | 342,12           |
+| instrumentos_musicais                         | 281,62           |
 
 📌 **Eletrônicos e eletrodomésticos** possuem os maiores valores médios.
 
