@@ -163,3 +163,7 @@ A base de dados utilizada é do **Olist**, um marketplace brasileiro, e contém 
 > **🏷️ Resultado:** **97,02%** dos pagamentos foram aprovados.  
 
 📌 Uma taxa **alta**, indicando que a maioria dos clientes conclui a compra sem problemas.
+
+Segue abaixo uma pré-visualização do dashboard gerado no Power BI:
+
+![Dashboard](powerbi_dashboard/dashboard.png)
